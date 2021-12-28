@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  background-color: hsl(204, 43%, 93%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 125px;
+}
+  
+h1{
+  color: hsl(179, 62%, 43%);
+}
+
+button{
+  border: 1px solid hsl(71, 73%, 54%); 
+  background-color: hsl(71, 73%, 54%);
+  padding: 10px 50px;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 0px 3px 3px darkcyan;
+  font-family: 'Karla', sans-serif;
+  display: inline-block;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  cursor:url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+  }
+
+button:hover{
+  background-color: darkcyan;
+  border-color: darkcyan;
+  cursor: pointer;
+}
+
+  .month{
+    color: hsla(175, 68%, 73%, 0.836);
+  }
+
+  p{
+    color: hsl(218, 22%, 67%);
+    line-height: 1.4;
+    padding-bottom: 30px;
+  }
+
+  h3{
+    color: hsl(71, 73%, 54%);
+  }
+
+  h2, .price, h4{
+    color: white;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  li{
+    color: white;
+    line-height: 1.4;
+  }
+
+  h1, h3, p, h2, h4{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .price{
+    padding-left: 40px;
+    font-size: 40px;
+  }
+
+@media (max-width: 1440px){
+  .pricingpanel{
+    display: grid;
+    grid-template-rows: 200px 260px;
+    grid-template-columns: repeat(2, 1fr)
+  }
+
+  .main{
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    grid-row: 1/2;
+    grid-column: 1/-1;
+  }
+
+  .subscrip{
+      background-color: hsl(179, 62%, 43%);
+      border-bottom-left-radius: 10px;
+      grid-row: 2/3;
+      grid-column: 1/2;
+  }
+
+  .whyus{
+      background-color:hsl(179, 56%, 65%) ;
+      border-bottom-right-radius: 10px;
+      grid-row: 2/3;
+      grid-column: 2/3;
+  }
+}
+
+@media (max-width: 667px){
+  .pricingpanel{
+    grid-template-rows: 300px 250px 250px;
+    grid-template-columns: 375px;
+  }
+
+  .main{
+    grid-row: 1/2;
+    grid-column: 1/-1;
+  }
+
+  .subscrip{
+    grid-row: 2/3;
+    grid-column: 1/-1;
+    border-bottom-left-radius: unset;
+  }
+
+  .whyus{
+    grid-row: 3/4;
+    grid-column: 1/-1;
+    border-bottom-left-radius: 10px;
+  }
+}
