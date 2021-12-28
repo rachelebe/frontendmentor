@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Website - #https://Single-Price-Grid-Component-Challenge.rachelebersole1.repl.co
-- Frontend Mentor - [@rachelebe]
+- Website - https://Single-Price-Grid-Component-Challenge.rachelebersole1.repl.co
+- Frontend Mentor - @rachelebe
