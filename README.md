@@ -26,7 +26,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: index.html, CSS stylesheet
-- [Live Site URL]: (#https://Single-Price-Grid-Component-Challenge.rachelebersole1.repl.co)
+- Live Site URL: https://Single-Price-Grid-Component-Challenge.rachelebersole1.repl.co
 
 ## My process
 
@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- [Website] - (#https://Single-Price-Grid-Component-Challenge.rachelebersole1.repl.co)
+- Website - #https://Single-Price-Grid-Component-Challenge.rachelebersole1.repl.co
 - Frontend Mentor - [@rachelebe]
