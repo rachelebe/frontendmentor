@@ -4,9 +4,9 @@ This is a solution to the Single price grid component challenge on Frontend Ment
 
 ## Table of contents
 
-- Overview(#overview)
-  - The challenge(#the-challenge)
-  - Links(#links)
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
 - [My process](#my-process)
   - Built with(#built-with)
 - [Author](#author)
